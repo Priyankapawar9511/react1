@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Priyankapawar9511/react1.git' // Replace with your repo URL
+                git branch: 'main', url: 'https://github.com/Priyankapawar9511/react1.git'// Replace with your repo URL
             }
         }
 
